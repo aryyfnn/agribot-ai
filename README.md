@@ -8,7 +8,7 @@ Proyek ini dibangun menggunakan **Streamlit** sebagai antarmuka pengguna dan dii
 
 ## 📸 Fitur Utama
 
-- **Intelegen & Edukatif:** Menggunakan model LLM `llama-3.3-70b-versatile` melalui Groq API yang dioptimalkan untuk ranah pertanian modern.
+- **Intelegen & Edukatif:** Menggunakan model LLM `openai/gpt-oss-safeguard-20b` melalui Groq API yang dioptimalkan untuk ranah pertanian modern.
 - **Percakapan Kontekstual (Memory):** Memiliki fitur *Chat History* (`st.session_state`) yang mengingat percakapan sebelumnya dalam satu sesi.
 - **Antarmuka Interaktif:** Tampilan berbasis web yang *clean*, responsif, dan mudah digunakan.
 - **Keamanan Konfigurasi:** Menggunakan Streamlit Secrets untuk manajemen API Key secara aman.
@@ -20,7 +20,7 @@ Proyek ini dibangun menggunakan **Streamlit** sebagai antarmuka pengguna dan dii
 | Parameter | Spesifikasi |
 | :--- | :--- |
 | **Use Case** | Education & Advisory Bot (Pertanian Modern) |
-| **LLM Model** | Llama 3.3 70B (`llama-3.3-70b-versatile`) |
+| **LLM Model** | openai/gpt 20B (`openai/gpt-oss-safeguard-20b`) |
 | **Provider API** | Groq Cloud API |
 | **Framework UI** | Streamlit |
 | **Persona / Tone** | Edukatif, Ramah, Solutif, dan Praktis |
